@@ -92,19 +92,44 @@
 //  })(); // end of self executing function
 
 //4-----------------------------------------
-(function () {
+// (function () {
+//   var array = [];
+//   items.filter(function(w){
+    
+//     if (w.materials.indexOf('wood') !== -1 ){
+//       array.push(w.title);
+//     } //end of if statement
 
+//   })//end of filter 
+//   var item1 = array.shift();
+//   var item2 = array.shift();
+//   var item3 = array.shift();
+//   var item4 = array.shift();
+//   var item5 = array.shift();
+//   // console.log(item1);
+//   //ITEM1
+//   var answer4A = document.querySelector('#answer4A');
+//   var textNode = document.createTextNode(item1);
+//      answer4A.appendChild(textNode);
+//   //ITEM2
+//   var answer4B = document.querySelector('#answer4B');
+//   var textNode = document.createTextNode(item2);
+//      answer4B.appendChild(textNode);
+//   //ITEM3
+//   var answer4C = document.querySelector('#answer4C');
+//   var textNode = document.createTextNode(item3);
+//      answer4C.appendChild(textNode);
+//   //ITEM4
+//   var answer4D = document.querySelector('#answer4D');
+//   var textNode = document.createTextNode(item4);
+//      answer4D.appendChild(textNode);
+//   //ITEM5
+//   var answer4E = document.querySelector('#answer4E');
+//   var textNode = document.createTextNode(item5);
+//      answer4E.appendChild(textNode);
+//  })(); // end of self executing function
 
-
-
- })(); // end of self executing function
-
-
-
-
-
-
-
+//5
 
 
 
