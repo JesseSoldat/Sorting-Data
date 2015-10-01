@@ -1,3 +1,10 @@
+(function() {
+
+console.log(items.length);
+
+
+
+})();
 
 
 
@@ -11,7 +18,6 @@
 
 
 
-console.log(1);
 
 
 
