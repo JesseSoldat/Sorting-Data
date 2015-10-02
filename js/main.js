@@ -94,10 +94,10 @@
 //4-----------------------------------------
 // (function () {
 //   var array = [];
-//   items.filter(function(w){
+//   items.filter(function(obj){
     
-//     if (w.materials.indexOf('wood') !== -1 ){
-//       array.push(w.title);
+//     if (obj.materials.indexOf('wood') !== -1 ){
+//       array.push(obj.title);
 //     } //end of if statement
 
 //   })//end of filter 
@@ -130,18 +130,66 @@
 //  })(); // end of self executing function
 
 //5
+(function(){
+  var array = [];
+  var array2 = [];
+
+items.filter(function(count){
+  if (count.materials.length >= 8) {
+     array.push(count.title);
+     array.push(count.materials.length);
+     array2.push(count.materials);
+
+    } //end of if
+}); //end of for filter
+var item1 = array.shift();
+var item2 = array.shift();
+var itemA = item1+" "+item2;
+
+var item3 = array.shift();
+var item4 = array.shift();
+var itemB = item3+" "+item4;
+
+var itemC = array2.shift();
+var itemD = array2.shift();
+
+//ITEM1
+var answer5A = document.querySelector('#answer5A');
+var textNode = document.createTextNode(itemA);
+answer5A.appendChild(textNode);
+//ITEM2
+var answer5B = document.querySelector('#answer5B');
+var textNode = document.createTextNode(itemC);
+answer5B.appendChild(textNode);
+//ITEM3
+var answer5C = document.querySelector('#answer5C');
+var textNode = document.createTextNode(itemB);
+answer5C.appendChild(textNode);
+//ITEM3
+var answer5D = document.querySelector('#answer5D');
+var textNode = document.createTextNode(itemD);
+answer5D.appendChild(textNode);
+})(); 
+// end of self executing function
+//6
+( function(){
+  var array = [];
+
+  items.filter(function(made){
+      if(made.who_made === 'i_did'){
+          // console.log(made.who_made);
+          array.push(made.who_made);
+      }//end of if
+
+  })//end of filter
+var item1 = array.length;
+
+var answer6A = document.querySelector('#answer6A');
+var textNode = document.createTextNode(item1);
+answer6A.appendChild(textNode);
+
+})(); // end of self executing function
 
 
 
-// (function () {
-//   var arrayPrice = [];
-//   // var item1 = items[0].price * parseInt(items[0].quantity);
-//     items.map(function(i) { 
-//         var item = items[0].price * parseInt(items[0].quantity);
-//           arrayPrice.push(item); 
-//     }); //end of map method
-// console.dir(arrayPrice);
-// console.log(arrayPrice);
-  
-// })();
 
