@@ -1,0 +1,10 @@
+div {
+  background-color: #EEEEEE; }
+
+p {
+  background-color: #EEEEEE; }
+
+.banner {
+  background-image: url(../banner.jpg);
+  width: 100%;
+  height: 70px; }
