@@ -11,18 +11,18 @@ img {
   height: auto;
 }
 div {
-  margin: 0 0 20px 0;
+  margin: 0 auto;
+  padding: 0 0 40px 0;
 
 }
 h2 {
-  font-size: .9em;
+  font-size: 2em;
   color: $bodyText;
   margin: 0 auto;
-  vertical-align: border-top;
 }
 p {
   margin: 0 auto;
-  padding: 30px 80px 0 80px;
+  padding: 30px 90px 0 90px;
   color: $bodyText;
   line-height: 25px;
 }
@@ -41,26 +41,25 @@ nav h3 {
 .wrapper {
   background-color: $background-color;
 }
-.banner {
-  background-image: url(../banner.jpg);
+.padding {
   width: 100%;
-  height: 200px;
+  height: 30px;
 }
 .empty {
   width: 100%;
-  // height: 80px;
   color: $bodyText;
-  font-size: 2em;
   text-align: center;
-  vertical-align: middle;
+  margin: 0 auto;
+  position: relative;
 }
-.padding {
-  width: 100%;
-  height: 70px;
+.answerLabel {
+  position: absolute;
+  top: 20px;
+  left: 510px;
 }
 .answer {
-  // height: 220px;
   border-top: 1px solid #E4E4E4;
+  padding: 25px 0 20px 0;
 
 }
 .footer {
