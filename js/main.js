@@ -79,7 +79,7 @@ var array = [];
 
   var answerA = array.pop();
   var answerB = array.pop();
-  var answer = answerB+" "+String.fromCharCode('163')+answerA;
+  var answer = answerB+" costs "+String.fromCharCode('163')+answerA;
 
 
 
@@ -182,7 +182,8 @@ answer5D.appendChild(textNode);
       }//end of if
 
   })//end of filter
-var item1 = array.length;
+var item1 = array.length +" were made by their sellers";
+
 
 var answer6A = document.querySelector('#answer6A');
 var textNode = document.createTextNode(item1);
